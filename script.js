@@ -13,7 +13,7 @@ function startVideo() {
             video: {}
         },
         stream => video.srcObject = stream,
-        err => console.error(err)
+        err => console.log(err)
     )
 }
 ////////////////////////Event_Listner_to_play
@@ -34,5 +34,5 @@ video.addEventListener('play', () => {
         faceapi.draw.drawFaceLandmarks(canvas, resizedDetections)
         faceapi.draw.drawFaceExpressions(canvas, resizedDetections)
 
-    }, 100)
+    }, 1000)
 })
