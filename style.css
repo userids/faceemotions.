@@ -1,0 +1,14 @@
+video {
+    border-radius: 20px;
+    border: 10px solid greenyellow;
+}
+
+body {
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(110.79248633202553deg, rgba(152, 39, 9, 1) 5.533854166666667%, rgba(0, 2, 0, 1) 96.67968749999999%);
+}
+
+canvas {
+    position: absolute;
+}
